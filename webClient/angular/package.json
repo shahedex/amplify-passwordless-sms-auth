@@ -5,7 +5,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider ng build",
     "attribution": "generate-attribution && mv oss-attribution/attribution.txt LICENSE-THIRD && rm -rf oss-attribution"
   },
   "private": false,
